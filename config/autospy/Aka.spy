@@ -1,0 +1,38 @@
+js_config:
+- Container:
+  - []
+  Env: jd_dplh_viewShop_ids
+  KeyWord:
+  - - jd_dplh_viewShop_ids
+  - - viewShop_ids
+  Name: 大牌联合浏览豆专用
+  Script: jd_dplh_viewShop.js
+  TimeOut: 0
+  Wait: 5
+- Container:
+  - []
+  Env: jd_dpqd_token
+  KeyWord:
+  - - jd_dpqd_token
+  Name: 店铺签到
+  Script: jd_dpqd_single.js
+  TimeOut: 0
+  Wait: 5
+- Container:
+  - []
+  Env: jd_dpqd_tokens
+  KeyWord:
+  - - jd_dpqd_tokens
+  Name: 批量店铺签到
+  Script: jd_dpqd_sign.js
+  TimeOut: 0
+  Wait: 5
+- Container:
+  - []
+  Env: jd_liveLottery_ids
+  KeyWord:
+  - - jd_liveLottery_ids
+  Name: 直播互动抽奖
+  Script: jd_liveLottery.js
+  TimeOut: 0
+  Wait: 5
